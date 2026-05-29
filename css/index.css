@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 body {
     background: #FFFFFF;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
 }
 
 html {
@@ -44,7 +44,7 @@ div#nextprev {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
+    font-weight: 200;
     z-index: 1;
     border-top: 2px solid white;
 }
@@ -75,7 +75,7 @@ div#carousel a {
 div#carousel-title  {
     display: block;
     text-align: center;
-    width: 500px;
+    width: 60%;
     height: 20px;
     font-weight: bold;
     border-radius: 10px;
@@ -181,6 +181,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 600;
 }
 footer div {
     width: 20%;

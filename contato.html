@@ -8,6 +8,9 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <script src="js/form.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>       
@@ -50,10 +53,10 @@
                     <option>Solicitação</option>
                 </select>
                 <div id="lawCompliance">
-                    <span>Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A 
+                    <span id="terms-conditions">Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A 
                     qualquer momento, será possível editar ou remover tais dados, clique aqui para ler os <a href="https://www.ford.com.br/politica-de-privacidade/" target="_blank" rel="noopener noreferrer">Termos e Condições</a></span>
-                    <span><input type="checkbox" id="lgpd" onchange="UserAgreedLgpd()" required> Sim. Li e concordo com os Termos e Condições'.</span>
-                    <span><input type="checkbox" id="mail" onchange="UserAgreedMail()"> Sim. Também quero receber descontos e novidades.</span>
+                    <span id="textalign"><input type="checkbox" id="lgpd" onchange="UserAgreedLgpd()" required><p> Sim. Li e concordo com os Termos e Condições'.</p></span>
+                    <span id="textalign"><input type="checkbox" id="mail" onchange="UserAgreedMail()"><p> Sim. Também quero receber descontos e novidades.</p></span>
                 </div>
             <button type="submit">Enviar</button>
             </form>

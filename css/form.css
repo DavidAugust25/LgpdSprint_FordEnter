@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 body {
     background: #FFFFFF;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
 }
 
 html {
@@ -103,6 +103,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 600;
 }
 footer div {
     width: 20%;
@@ -169,6 +170,7 @@ main div {
 h2 {
     text-align: left;
     font-weight: 800;
+    color: #808080;
 }
 
 div#lawCompliance {
@@ -176,10 +178,10 @@ div#lawCompliance {
     display: flex;
     flex-direction: column;
     padding: 8px;
+    font-size: 10px;
 }
 
-div#lawCompliance span {
-    font-size: 11.5px;
+div#lawCompliance span#terms-conditions {
     font-weight: bold;
     color: #807d7d;
     text-align: left;
@@ -192,6 +194,16 @@ div#lawCompliance span input {
     width: 16px;
 }
 
+div#lawCompliance span#textalign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3px;
+    font-weight: bold;
+    color: #807d7d;
+    width: 100%;
+}
+
 div#lawCompliance span a {
     text-decoration: none;
     color: #1351d8;
@@ -202,6 +214,8 @@ button {
     height: 40px;
     margin-right: 8px;
     float: right;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .titulo {
