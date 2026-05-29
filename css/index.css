@@ -134,7 +134,7 @@ header nav a {
     color: #1351d8;
     font-size: 20px;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 600;
     margin-left: 14px;
     margin-right: 14px;
 }
@@ -142,7 +142,7 @@ header nav a {
 header nav a:hover {
     color: #1b357e;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 nav li {

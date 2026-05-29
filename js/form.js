@@ -1,4 +1,4 @@
-// Armazenando as preferências do usuário
+// armazenando as preferências do usuário
 
 let userAgreedLgpd = false;
 let userAgreedMail = false;
@@ -12,8 +12,8 @@ class contato {
         this.telefone = telefone;
         this.mensagem = mensagem;
         this.contato = contato;
-        this.lgpd = "User agreed to the terms and conditions: " + userAgreedLgpd;
-        this.mail = "User agreed to receiving e-mails: " + userAgreedMail;
+        this.lgpd = "Usuário concordou com os termos e condições: " + userAgreedLgpd;
+        this.mail = "Usuário concordou em receber e-mails: " + userAgreedMail;
     }
 }
 
